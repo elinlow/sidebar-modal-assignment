@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css"> 
-    <script src="script.js"></script>
     <title>Sidebar and Modal, JavaScript assignment</title>
 </head>
 <body>
@@ -19,8 +18,17 @@
       
     <div id="main">
         <button class="openbtn" onclick="openNav()">Open Sidebar</button>  
-        <h2>Collapsed Sidebar</h2>
+        <h2>To learn more about Elin:</h2>
         <p>Click on the sidebar button.</p>
     </div>
+
+    <button id="myBtn">Open Modal</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
